@@ -53,6 +53,7 @@ body {
   font-size: 1.12rem;
   line-height: 1.5;
   background-color: var(--catalina);
+  font-family: Poppins;
 }
 .wrapper {
   margin: auto;
@@ -109,13 +110,12 @@ a {
   column-gap: 1rem;
   align-items: center;
 }
-.feature-card h2,
-p,
-a {
-  grid-column: 2/3;
-}
+
 .feature-img {
   grid-column: 1/2;
+}
+.feature-text {
+  padding: 1rem;
 }
 .card img {
   grid-column: 1/2;
