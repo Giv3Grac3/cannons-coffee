@@ -70,6 +70,10 @@ nav ul {
   align-items: flex-end;
   justify-content: center;
 }
+svg {
+  width: 20px;
+  height: 20px;
+}
 footer {
   border-top: 0.5rem solid var(--sunglow);
   background-color: var(--catalina);
