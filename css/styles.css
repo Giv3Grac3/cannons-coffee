@@ -137,6 +137,9 @@ img {
 .lightblue h2 {
   padding: 0.5rem;
 }
+#burger-button {
+  display: none;
+}
 @media (min-width: 650px) {
   .cards {
     grid-template-columns: 1fr 1fr;
@@ -148,5 +151,20 @@ img {
   }
   header {
     justify-content: space-between;
+  }
+}
+@media (max-width: 466px) {
+  #burger-button {
+    display: block;
+    margin: 1rem auto;
+  }
+  nav ul {
+    display: none;
+  }
+  svg {
+    display: none;
+  }
+  .visible {
+    display: block;
   }
 }
